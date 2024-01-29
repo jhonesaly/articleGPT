@@ -9,7 +9,46 @@ Esse projeto é um estudo das melhores práticas de uso de uma inteligência art
 
 ## Protocolo
 
+1. **Identificação do Papel:**
+   - Antes de iniciar, o usuário deve identificar o papel que a inteligência artificial deve assumir (e.g., especialista em economia, segurança pública, desenvolvedor de software, redator especialista).
 
+2. **Definição do Tema ou Problema:**
+   - O usuário deve especificar claramente o tema ou problema sobre o qual deseja informações ou conteúdo.
+
+3. **Formulação de Perguntas ou Instruções Detalhadas:**
+   - O usuário deve formular perguntas ou instruções detalhadas para orientar a inteligência artificial na geração de conteúdo específico. Isso pode incluir a solicitação de listas, informações concretas, soluções, ou até mesmo a criação de um artigo.
+
+4. **Utilização de Variáveis:**
+   - O usuário pode usar variáveis para personalizar ainda mais o conteúdo. Exemplos de variáveis incluem problemas específicos, situações concretas, casos a serem evitados, entre outros.
+
+5. **Considerações Linguísticas e de Formato:**
+   - O usuário pode indicar preferências linguísticas, como o idioma em que deseja receber as respostas, e instruções específicas sobre formato, caso aplicável.
+
+6. **Especificações para Desenvolvimento de Código (se aplicável):**
+   - Se o pedido envolver a escrita de código, o usuário deve explicitar se prefere Python ou outra linguagem. Caso contrário, a linguagem padrão será assumida como Python.
+
+7. **Instruções Opcionais (se aplicável):**
+   - O usuário pode fornecer instruções opcionais para aprimorar a resposta, como sugestões de bases de dados específicas para imagens.
+
+**Exemplo de Uso:**
+
+```
+PROMPT = "
+3 **USER**
+
+Especifique melhor os problemas de violência urbana para situações concretas que devem ser evitadas.
+"
+
+# Variáveis:
+# - Problema específico: [Inserir problema]
+# - Situações concretas: [Inserir situações]
+
+# Instruções adicionais:
+# - Certifique-se de fornecer exemplos específicos e evitáveis.
+
+Resposta Esperada:
+"Os problemas de violência urbana no Brasil incluem [Inserir problema], que se manifesta em situações como [Inserir situações]. É crucial abordar essas questões para promover um ambiente mais seguro."
+```
 
 ## Resultado
 
