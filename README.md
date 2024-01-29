@@ -1,5 +1,16 @@
 # articleGPT
 
+Esse projeto é um estudo das melhores práticas de uso de uma inteligência artificial na criação de artigos de conteúdo.
+
+## Tecnologias
+
+- ChatGPT
+- Lexica.art
+
+## Protocolo
+
+
+
 ## Resultado
 
 **Vigilância Inteligente: A Revolução na Segurança Comercial**
